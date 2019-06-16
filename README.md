@@ -55,5 +55,5 @@ Retained classification accuracy of the model's under various types of adversari
 
 | Training Scheme |  No Attack  |  FGSM  |   BIM   |   MIM   |   PGD   |
 | :-------        | :---------- | :----- |:------  |:------  |:------  |
-|     Softmax     |    92.15    |  21.48 |   0.01  |   0.02  |   0.00  |
+|     Softmax     |    90.80    |  21.48 |   0.01  |   0.02  |   0.00  |
 |      Ours       |    90.45    |  66.90 |  31.29  |  32.84  |  27.05  |
