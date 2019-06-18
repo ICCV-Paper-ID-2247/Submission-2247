@@ -36,6 +36,12 @@ The deep features for the prototype conformity loss are extracted from different
 
 * The trained checkpoints will be saved in ``Models_PCL`` folder.
 
+## Prototype Conformity Loss Training without Joint Supervision with CE Loss 
+
+* The model's trained checkpoints are saved in ``Models_PCL_Only`` folder.
+
+``accuracy_nmc.py`` -- ( Evaluate the performance of model trained without joint supervision. Here Nearest Mean Classsifier is used for class prediction.)
+
 ## Adversarial Training
 ``pcl_training_adversarial_fgsm.py`` -- ( Adversarial Training using FGSM Attack).
 
